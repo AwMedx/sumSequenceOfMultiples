@@ -1,0 +1,23 @@
+Sequence:
+  (n*1) + (n*2) + ...
+
+Formula Function:
+  Return the sum of the sequence of multiples of n
+
+Variables:
+  n: base number ('multiple of 4'; n is the 4 in this case)
+  m: # that is being multipled to n
+  M = # of m
+  
+Formula:
+  Sum of (n*1) + (n*2) + ... = n/2 * M(M+1)
+
+Example:
+  n: 4
+  
+  4+8+12+16 = 40
+  m: 4
+
+  4/2 * 4(4+1) = 
+  2 * 20 =
+  40
