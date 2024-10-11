@@ -21,3 +21,14 @@ Example:
   4/2 * 4(4+1) = 
   2 * 20 =
   40
+
+Application in Code:
+.py
+  Max = 25
+  N = 4
+  
+  M = Max//N
+  
+  sumMultiples = N/2 * M*(M+1)
+  
+  print(sumMultiples) # Output: 84.0
