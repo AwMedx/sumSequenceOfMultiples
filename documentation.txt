@@ -10,7 +10,7 @@ Variables:
   M = # of m
   
 Formula:
-  Sum of (n*1) + (n*2) + ... = n/2 * M(M+1)
+  Sum of (n*1) + (n*2) + ... = n * M(M+1) / 2
 
 Example:
   n: 4
@@ -29,6 +29,6 @@ Application in Code:
   
   M = Max//N
   
-  sumMultiples = N/2 * M*(M+1)
+  sumMultiples = N * M*(M+1) / 2
   
   print(sumMultiples) # Output: 84.0
